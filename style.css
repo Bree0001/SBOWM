@@ -50,7 +50,7 @@ body{
 }
 
 .nav a:active{
-    color: rgb(53, 40, 40);
+    color: rgb(138, 94, 94);
     background-color: whitesmoke;
     border-radius: 2px;
     margin: 2px;
@@ -107,11 +107,20 @@ body{
     }
     
 }
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+    
+    body{
+        font-family: "Satisfy", cursive;
+        min-height: 100vh;
+        font-size: 3rem;
+        background-color: green);
+        color: blue;
+        line-height: 1.7;
     }
 }
 @media screen and (min-width: 1025px) {
