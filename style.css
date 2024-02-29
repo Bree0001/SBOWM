@@ -22,7 +22,7 @@ body{
     margin: 5px;
     padding: 5px;
     text-shadow: 1px 1px 1px; 
-    position: fixed;
+   
 }
 
 .nav{
@@ -32,7 +32,7 @@ body{
     margin-left: 6px;
     padding: 3px;
     word-spacing: 2rem;
-    position: ;
+    
 }
 .nav a{
     text-decoration: none;
